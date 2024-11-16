@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Assignment Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="All Scenarios(failed)">
+    <classes>
+      <class name="com.northeastern.selenium.tests.Scenario3Test">
+        <methods>
+          <include name="downloadClassroomGuideWithInvalidID"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.northeastern.selenium.tests.Scenario3Test -->
+    </classes>
+  </test> <!-- All Scenarios(failed) -->
+</suite> <!-- Failed suite [Selenium Assignment Suite] -->
